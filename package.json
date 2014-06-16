@@ -4,13 +4,9 @@
   "description":"module for quick server spinup",
   "author":"Danny Cox <sir.danny.cox@gmail.com>",
   "dependencies":{
-    "markdown":"*",
+    "marked":"*",
     "express":"*",
     "jade":"*",
-    "chokidar":"*",
-    "compression":"*"
-  },
-  "scripts": {
-    "preinstall":"npm i -g forever"
+    "chokidar":"*"
   }
 }
